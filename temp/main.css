@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --success-color: #2ecc71;
+    --error-color: #e74c3c;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #faf9fb;
+    font-family: 'Open Sans', sans-serif;
+    /* just middle center content setting */
+    display: flex;  /* flex: inside every tag body> div all and other element*/
+    align-items: center; /* related - min-height */
+    justify-content: center;  /* Related to flex */
+    min-height: 100vh; /* upper padding - flex */
+    margin: 0; /* important */
+}
